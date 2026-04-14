@@ -1,0 +1,69 @@
+.app {
+  display: flex;
+  height: 100vh;
+  font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+  background: #f4f4f4;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.note-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+/* Editor */
+.editor {
+  width: 40%;
+  padding: 10px;
+}
+
+.editor input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.editor textarea {
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+}
+
+/* Preview */
+.preview {
+  width: 40%;
+  padding: 10px;
+  background: #fafafa;
+  overflow-y: auto;
+}
+
+/* 🌙 DARK MODE */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.dark .sidebar {
+  background: #1e1e1e;
+}
+
+.dark .editor {
+  background: #1e1e1e;
+}
+
+.dark .preview {
+  background: #2a2a2a;
+}
+
+.dark input,
+.dark textarea {
+  background: #333;
+  color: white;
+}
